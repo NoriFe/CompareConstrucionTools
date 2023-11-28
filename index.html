@@ -3,17 +3,20 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>ToolsCompare</title>
+    <title>Movie Search</title>
 </head>
 <body>
     <header>
-        <h1>Construcion tools compare</h1>
-        <input type="text" id="toolInput" placeholder="Type a tool...">
-        <button onclick="searchTools()">Search</button>
+        <h1>Movie Search Tool</h1>
+        <input type="text" id="movieInput" placeholder="Type a movie...">
+        <button onclick="searchMovies()">Search</button>
     </header>
-    <Section>
+    <section id="results">
         <h2>Results</h2>
-        
-    </Section>
+        <div id="movieList">
+          
+        </div>
+    </section>
+    <script src="app.js"></script>
 </body>
 </html>
